@@ -8,7 +8,7 @@ public class QueueMain {
         System.out.println("3. Print");
         System.out.println("4. Peek");
         System.out.println("5. Clear");
-        System.out.println("----------------------------------");
+        System.out.println("--------------------------------");
     }
 
     public static void main(String[] args) {
@@ -16,15 +16,14 @@ public class QueueMain {
         System.out.print("Masukkan kapasitas queue : ");
         int n = sc.nextInt();
         Queue Q = new Queue(n);
-        System.out.print("Pilih menu : ");
-        int pilih = sc.nextInt();
+        int pilih;
 
         do {
             menu();
             pilih = sc.nextInt();
             switch (pilih) {
                 case 1:
-                    System.out.println("Masukkan data baru : ");
+                    System.out.print("Masukkan data baru : ");
                     int dataMasuk = sc.nextInt();
                     Q.Enqueue(dataMasuk);
                     break;
