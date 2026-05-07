@@ -1,4 +1,4 @@
-package Tugas;
+package TugasP1;
 
 public class AntrianKRS {
     Mahasiswa[] data;

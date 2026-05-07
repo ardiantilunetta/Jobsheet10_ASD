@@ -1,4 +1,4 @@
-package Tugas;
+package TugasP1;
 
 import java.util.Scanner;
 
